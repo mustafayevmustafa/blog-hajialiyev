@@ -1,0 +1,31 @@
+
+:root{
+    --blue : #1e73be ;
+}
+
+.features_list > li:not(:last-child) {
+
+    border-right: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.features_list_drop_down>li:hover a {
+    color: var(--blue);
+}
+
+.features_list_drop_down li:not(:first-child):hover{
+    background-color: rgba(221, 220, 220,.3);
+}
+
+.features_list_drop_down li:first-child{
+    color: black;
+    font-weight: 700;
+}
+
+.features_list_drop_down li:not(:first-child){
+    font-size: 11px;
+}

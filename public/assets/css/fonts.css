@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Roboto Slab Thin';
+    src: url('./myFonts/RobotoSlab-Thin.woff2') format('woff2'),
+        url('./myFonts/RobotoSlab-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./myFonts/Roboto-Regular.woff2') format('woff2'),
+    url('./myFonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('./myFonts/Roboto-Light.woff2') format('woff2'),
+    url('./myFonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto BOLD';
+    src: url('./myFonts/Roboto-Bold.woff2') format('woff2'),
+    url('./myFonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Roboto Slab Bold';
+    src: url('./myFonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('./myFonts/RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('./myFonts/RobotoSlab-Regular.woff2') format('woff2'),
+        url('./myFonts/RobotoSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display Italic ';
+    src: url('./myFonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('./myFonts/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('./myFonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+         url('./myFonts/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo';
+    src: url('./myFonts/NanumMyeongjo.woff2') format('woff2'),
+        url('./myFonts/NanumMyeongjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumMyeongjo Bold';
+    src: url('./myFonts/NanumMyeongjoBold.woff2') format('woff2'),
+        url('./myFonts/NanumMyeongjoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumMyeongjoExtraBold';
+    src: url('./myFonts/NanumMyeongjoExtraBold.woff2') format('woff2'),
+        url('./myFonts/NanumMyeongjoExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Lora Normal';
+    src: url('./myFonts/Lora-Regular.woff2') format('woff2'),
+        url('./myFonts/Lora-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('./myFonts/Lora-Italic.woff2') format('woff2'),
+        url('./myFonts/Lora-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('./myFonts/Montserrat-Bold.woff2') format('woff2'),
+    url('./myFonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Thin';
+    src: url('./myFonts/Montserrat-Thin.woff2') format('woff2'),
+    url('./myFonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./myFonts/Montserrat-Regular.woff2') format('woff2'),
+    url('./myFonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

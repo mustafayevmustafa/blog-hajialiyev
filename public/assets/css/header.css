@@ -1,0 +1,464 @@
+@import url('./fonts.css');
+@import url('./reset.css');
+/* @import url('./styleResponsive.css'); */
+
+
+
+*{
+    font-family:  Helvetica, sans-serif ;
+}
+
+
+
+:root{
+    --blue : #1e73be ;
+}
+
+/************  Normal Header hissesi **************/
+
+.header{
+    transition: all .2s linear;
+    z-index: 5000;
+   
+}
+
+.header.sticky{
+    position: sticky;
+    top: 0%;
+}
+
+
+
+.header_top{
+    padding: 20px 0px;
+    display: flex;
+    z-index: 2000;
+}
+
+.header_top.hidden{
+    display: none;
+}
+
+
+
+
+.header_bottom_container{
+    display: block;
+    z-index: 2000;
+}
+
+.header_bottom_container.hidden{
+    display: none;
+}
+
+
+
+.sosial_list{
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 130px;
+}
+
+.sosial_list_item a{
+    color: black;
+    font-weight: 400;
+}
+
+.header_top_left{
+    width: 77px;
+}
+
+.header_top_middle{
+    width: 380px;
+    height: 81.2px;
+}
+
+.header_top_middle h1 {
+    margin: 0%;
+}
+
+.header_top_right {
+    width: 190.75px;
+
+}
+
+
+.basket-icon:hover svg  {
+    fill : blue;
+}
+
+
+.basket-info{
+    background-color: blue;
+    color:white;
+    font-size: 10px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-50%) translateY(-28%);
+
+}
+
+
+.header_bottom{
+    height: 40px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    display: block;
+    z-index: 2000;
+   
+}
+
+
+
+.header_bottom_in{
+    margin: 0 auto;
+    width: 70%;
+    z-index: 2000;
+}
+
+.header_bottom_list{
+    margin: 0% auto;
+    padding: 0%;
+    z-index: 2000;
+}
+
+
+.header_bottom_list li  {
+    padding: 10px 14px;
+
+    font-size: 13px;
+}
+
+.header_bottom_list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_bottom_list_item{
+    position: relative;
+}
+
+
+
+.header_bottom_list_item:hover .header_bottom_list_item_dropdown_menu {
+    display: flex;
+}
+
+
+.header_bottom_list_item_dropdown_menu{
+    position: absolute;
+    border-top: 2px solid #1e73be;
+    width: 600px;
+    z-index: 2000;
+    background-color: white;
+    transform: translateY(10px);
+    display: none;
+    transition: opacity .3s linear;
+    /* opacity: 0; */
+
+}
+
+.header_bottom_list_item:hover  .header_bottom_list_item_dropdown_menu2  {
+    display: flex;
+}
+
+
+
+.header_bottom_list_item_dropdown_menu2{
+    border-top: 2px solid #1e73be  ;
+    background-color: white;
+    position: absolute;
+    width: 160px;
+    transform: translateY(10px);
+    display: none;
+    transition: opacity .3s linear;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    z-index: 2000;
+}
+
+.header_bottom_list_item_dropdown_menu2 li:not(:last-child){
+
+    border-bottom: .5px solid rgb(237, 237, 237);
+}
+.header_bottom_list_item_dropdown_menu2 li:hover{
+    background-color: rgb(253, 250, 250);
+   
+}
+
+.header_bottom_list_item_dropdown_menu2 > li:hover a{
+    color: #1e73be ;
+    padding: 5px 0px;
+}
+
+
+.header_bottom_list_item_dropdown_menu_item{
+    width: 33.33%;
+    padding: 10px;
+}
+
+.header_bottom_list_item_dropdown_menu_item  a img{
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    padding: 5px 0px;
+}
+
+.header_bottom_list_item_dropdown_menu_item_text  {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.header_bottom_list_item_dropdown_menu_item_text:hover a {
+    color: #1e73be ;
+}
+
+
+.fa-play{
+    color: white;
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+    left: 47%;
+    text-shadow: 3px 3px 10px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    
+}
+/******************  Yandan acilan aside hisse  *************************/
+
+
+.aside{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    transform: translateX(-100%);
+    transition: all .2s linear;
+    display: none;
+    z-index: 5000;
+}
+
+
+.aside.open{
+    display: block;
+}
+
+.aside_in{
+    width: 18%;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+
+.aside_menu li{
+    padding: 5px 5px  5px  0px ;
+}
+
+.aside_menu li a{
+    text-decoration: none;
+    color: black;
+   
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.aside_submenu:hover {
+    cursor: pointer;
+}
+
+.aside_submenu_list{
+   
+    display: flex;
+    
+    
+}
+
+.fa-angle-right{
+    transition: all .1s linear;
+}
+
+
+.aside_input_block{
+    border: 1px solid rgb(228, 226, 226);
+}
+
+.aside_input_block  button{
+    background-color: transparent;
+}
+
+
+
+.aside_input_block  button .fa-search{
+    color: rgb(190, 190, 190) ;
+    font-weight: 600;
+    
+}
+
+.aside_input_block  button .fa-search:hover{
+    color: var(--blue);
+}
+
+
+/* yuxardan gelen search hisse */
+.search_area{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transform: translateY(-100%);
+    transition: all .2s linear;
+}
+
+.close_btn{
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.search_area_form_container{
+    width: 70%;
+}
+
+.search_area_form{
+    height: 60px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+.search_area_form input{
+    height: 100%;
+    width: 90%;
+    font-size: 3em;
+    font-weight: 400;
+
+}
+
+.search_area_form button{
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    font-size: 24px;
+}
+
+/**/
+
+
+.search_area_title{
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    left: 0%;
+    margin: 25px 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s cubic-bezier(.34,1.56,.64,1);
+    transition-delay: .5s;
+}
+
+.search_area_title.visible{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,0);
+}
+
+.search_area_list{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.search_area_list li {
+    padding-right: 7px;
+    transform: translate(0,10px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s cubic-bezier(.34,1.56,.64,1);
+    transition-delay: .46s;
+}
+
+.search_area_list li.visible{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,0);
+}
+
+.search_area_list li:not(:last-child):after{
+    content: '/';
+    margin-left: 5px;
+}
+
+.search_area_list a{
+    color: black;
+    font-size: 1.1em;
+}
+
+.search_area_list a:hover{
+    color: black;
+}
+
+/* Sticky header */
+
+.header_sticky {
+    background-color: white;
+    border-bottom-color: #e0e0e0;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 8%);
+    display: none;
+    transition: all .2s linear;
+    
+}
+
+ .header_sticky.my_show{
+    display: block;
+    
+} 
+
+.header_sticky  .center .header_bottom{
+    border: none;
+    margin-left: 256px;
+}
+
+
+/*********** mobil menu********* */
+
+
+.mobile_header{
+    background-color: #fff;
+    display: none;
+}
+
+.mobile_header_center{
+    width: 100px;
+    height: 20px;
+}
+
+.mobile_header_center img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    .aside_menu li a{
+        font-size: 15px ;
+    }
+
+    .aside_menu li{
+        padding: 8px 5px 5px 0px;
+    }
+}
